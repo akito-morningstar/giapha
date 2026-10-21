@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách bảo mật — Gia Phả</title>
+<meta name="description" content="Gia Phả không thu thập dữ liệu nào. Bản Android không khai quyền truy cập mạng.">
+<style>
+  :root {
+    --bg: #faf7f4; --fg: #221b16; --muted: #6b5f56;
+    --accent: #9a1b1b; --rule: #e3d9d0; --card: #fff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17120f; --fg: #ece4dd; --muted: #a2948a;
+      --accent: #e0a44a; --rule: #332a24; --card: #1f1915;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #17120f; --fg: #ece4dd; --muted: #a2948a;
+    --accent: #e0a44a; --rule: #332a24; --card: #1f1915;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    padding: 0 16px;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 0 4rem; }
+  h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2.25rem 0 .6rem; color: var(--accent); }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .4rem; }
+  .updated { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  .lede {
+    background: var(--card); border-left: 3px solid var(--accent);
+    padding: 1rem 1.1rem; border-radius: 0 8px 8px 0; margin: 0 0 1rem;
+  }
+  table { border-collapse: collapse; width: 100%; margin: .75rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .55rem .6rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code { background: var(--card); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3rem 0; }
+  .en { color: var(--muted); }
+  .en h2 { color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Chính sách bảo mật — Gia Phả</h1>
+  <p class="updated">Cập nhật lần cuối: 20/10/2026</p>
+
+  <p class="lede"><strong>Gia Phả không thu thập bất kỳ dữ liệu nào của bạn.</strong> Toàn bộ nội dung
+  gia phả nằm trên máy bạn, và ứng dụng không có khả năng kết nối internet.</p>
+
+  <h2>Chúng tôi thu thập gì?</h2>
+  <p><strong>Không gì cả.</strong> Không tài khoản, không đăng nhập, không máy chủ, không quảng cáo,
+  không công cụ thống kê, không trình theo dõi, không báo cáo sự cố tự động.</p>
+  <p>Bản phát hành Android của ứng dụng <strong>không khai quyền <code>android.permission.INTERNET</code></strong>.
+  Nghĩa là hệ điều hành <strong>chặn</strong> mọi kết nối mạng của ứng dụng ở mức hệ thống — đây không
+  phải lời hứa, mà là một giới hạn kỹ thuật bạn có thể tự kiểm tra bằng bất kỳ công cụ xem quyền nào.</p>
+
+  <h2>Dữ liệu của bạn nằm ở đâu?</h2>
+  <p>Trong vùng lưu trữ riêng của ứng dụng trên máy bạn: tên và thông tin người thân, quan hệ gia đình,
+  và ảnh đại diện bạn chọn. Không bản sao nào được gửi đi đâu.</p>
+
+  <h2>Ứng dụng xin những quyền gì?</h2>
+  <table>
+    <tr><th>Quyền</th><th>Dùng để làm gì</th></tr>
+    <tr>
+      <td>Truy cập ảnh / chọn tệp</td>
+      <td>Chỉ khi <strong>bạn bấm</strong> chọn ảnh đại diện, hoặc <strong>bạn bấm</strong> nhập/xuất
+      tệp gia phả. Ứng dụng không tự quét thư viện ảnh.</td>
+    </tr>
+  </table>
+
+  <h2>Chia sẻ gia phả</h2>
+  <p>Ứng dụng cho phép bạn <strong>xuất</strong> gia phả thành một tệp <code>.giapha</code> và tự gửi
+  cho người thân qua ứng dụng bạn muốn (Zalo, AirDrop, email…). Việc gửi đó do <strong>bạn</strong>
+  thực hiện bằng ứng dụng của bên thứ ba; Gia Phả chỉ tạo ra tệp. Khi tệp đã rời máy bạn, nó chịu
+  chính sách bảo mật của ứng dụng bạn dùng để gửi, không còn thuộc phạm vi tài liệu này.</p>
+
+  <h2>Trẻ em</h2>
+  <p>Ứng dụng không thu thập dữ liệu nên không thu thập dữ liệu của trẻ em.</p>
+
+  <h2>Xoá dữ liệu</h2>
+  <p>Bạn có thể xoá từng người, từng gia phả trong ứng dụng. Gỡ cài đặt ứng dụng sẽ xoá toàn bộ dữ liệu
+  trên máy. Vì không có máy chủ nào, <strong>không có bản sao nào ở nơi khác để yêu cầu xoá</strong>.</p>
+
+  <h2>Thay đổi chính sách</h2>
+  <p>Nếu chính sách này thay đổi, bản cập nhật sẽ được đăng tại chính trang này kèm ngày cập nhật mới.</p>
+
+  <h2>Liên hệ</h2>
+  <p><a href="mailto:akitomorningstar.studio@gmail.com">akitomorningstar.studio@gmail.com</a></p>
+
+  <hr>
+
+  <section class="en" lang="en">
+    <h2>Privacy Policy — Gia Phả (English)</h2>
+    <p>Last updated: 2026-10-20</p>
+    <p><strong>Gia Phả collects no data whatsoever.</strong> There is no account, no login, no server,
+    no advertising, no analytics, no tracking, and no automatic crash reporting. All family tree content
+    stays in the app's private storage on your device.</p>
+    <p>The Android release build <strong>does not declare the <code>android.permission.INTERNET</code>
+    permission</strong>, so the operating system blocks the app from making any network connection. This
+    is a technical restriction you can verify yourself with any permission inspector, not a promise.</p>
+    <p>The app asks for photo/file access <strong>only</strong> when you tap to choose an avatar or to
+    import/export a family tree file. It never scans your photo library on its own.</p>
+    <p>The app can <strong>export</strong> your family tree to a <code>.giapha</code> file that
+    <strong>you</strong> then send to relatives using another app of your choosing. That transmission is
+    performed by that third-party app under its own privacy policy; Gia Phả only produces the file.</p>
+    <p>You can delete individual people or whole trees inside the app. Uninstalling removes all data from
+    the device. Because there is no server, there is no copy anywhere else to request deletion of.</p>
+    <p>Contact: <a href="mailto:akitomorningstar.studio@gmail.com">akitomorningstar.studio@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
